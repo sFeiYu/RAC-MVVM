@@ -15,6 +15,7 @@
 		971813E6234C5ECD00174EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971813E4234C5ECD00174EA8 /* LaunchScreen.storyboard */; };
 		971813E9234C5ECD00174EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 971813E8234C5ECD00174EA8 /* main.m */; };
 		971813F2234C619C00174EA8 /* RACFirstUseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 971813F1234C619C00174EA8 /* RACFirstUseVC.m */; };
+		971813F5234C69FC00174EA8 /* RAConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 971813F4234C69FC00174EA8 /* RAConst.m */; };
 		FE55F88D941EF090902BF689 /* Pods_RACTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426F8328735B2913B73434DA /* Pods_RACTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,8 @@
 		971813EF234C607C00174EA8 /* RACHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACHeader.h; sourceTree = "<group>"; };
 		971813F0234C619C00174EA8 /* RACFirstUseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACFirstUseVC.h; sourceTree = "<group>"; };
 		971813F1234C619C00174EA8 /* RACFirstUseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACFirstUseVC.m; sourceTree = "<group>"; };
+		971813F3234C69FC00174EA8 /* RAConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAConst.h; sourceTree = "<group>"; };
+		971813F4234C69FC00174EA8 /* RAConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAConst.m; sourceTree = "<group>"; };
 		9A1CBC07BAE0663522FFB6F2 /* Pods-RACTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTest.debug.xcconfig"; path = "Target Support Files/Pods-RACTest/Pods-RACTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +101,8 @@
 				971813F0234C619C00174EA8 /* RACFirstUseVC.h */,
 				971813F1234C619C00174EA8 /* RACFirstUseVC.m */,
 				971813EF234C607C00174EA8 /* RACHeader.h */,
+				971813F3234C69FC00174EA8 /* RAConst.h */,
+				971813F4234C69FC00174EA8 /* RAConst.m */,
 				971813DF234C5ECB00174EA8 /* Main.storyboard */,
 				971813E2234C5ECD00174EA8 /* Assets.xcassets */,
 				971813E4234C5ECD00174EA8 /* LaunchScreen.storyboard */,
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971813F5234C69FC00174EA8 /* RAConst.m in Sources */,
 				971813F2234C619C00174EA8 /* RACFirstUseVC.m in Sources */,
 				971813DE234C5ECB00174EA8 /* ViewController.m in Sources */,
 				971813D8234C5ECB00174EA8 /* AppDelegate.m in Sources */,
